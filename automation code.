@@ -1,0 +1,9 @@
+public class Tc01
+public static void main(String args[]) throws Exception)
+system.setproperty("webdriver.chrome.driver"," "C:\Drivers\chromedriver_win32 (1)\chromedriver.exe");
+Webdriver driver= new chromedriver();
+driver.navigate.to(" https://in.bookmyshow.com/explore/home/");
+thread.sleep(4000);
+driver.findelement(by.name("Sign in")).click();
+driver.findelement(by.name("Continue with Email")).click();
+driver.findelement(by.id("emailId")).sendkeys(" seleniumauto@yopmail.com");
